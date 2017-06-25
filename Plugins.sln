@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Limo.Plugins.Test", "test\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limo.Plugins.Abstractions", "src\Limo.Plugins.Abstractions\Limo.Plugins.Abstractions.csproj", "{2F481D17-B387-45B8-971D-4A4C01095CB1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{2F86C477-3E44-4F57-AFFB-8C59E24FF3F0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{2F86C477-3E44-4F57-AFFB-8C59E24FF3F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limo.Plugins.Demo", "samples\Limo.Plugins.Demo\Limo.Plugins.Demo.csproj", "{67D7FE43-81CD-45BA-A61F-DBDE8710BD70}"
 	ProjectSection(ProjectDependencies) = postProject
