@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Limo.Plugins.Abstractions\Limo.Plugins.Abstractions.csproj" />
+  </ItemGroup>
+
+  <Target Name="TestTarget" AfterTargets="Build">
+    <MakeDir Directories="..\Extensions" /> 
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="..\Extensions" SkipUnchangedFiles="True"></Copy>
+  </Target>
+
+</Project>
