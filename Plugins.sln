@@ -16,10 +16,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{2F86C477-3E44-4F57-AFFB-8C59E24FF3F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limo.Plugins.Demo", "samples\Limo.Plugins.Demo\Limo.Plugins.Demo.csproj", "{67D7FE43-81CD-45BA-A61F-DBDE8710BD70}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D950617C-FEA8-4B14-B6EF-C65172C4CBA5} = {D950617C-FEA8-4B14-B6EF-C65172C4CBA5}
-		{FE19C59A-3EE1-488C-90CC-F196B8056374} = {FE19C59A-3EE1-488C-90CC-F196B8056374}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Limo.Plugins.Demo.Plugin2", "samples\Limo.Plugins.Demo.Plugin2\Limo.Plugins.Demo.Plugin2.csproj", "{D950617C-FEA8-4B14-B6EF-C65172C4CBA5}"
 EndProject
