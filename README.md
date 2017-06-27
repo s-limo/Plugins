@@ -1,4 +1,5 @@
 Travis CI: [![Build Status](https://travis-ci.org/s-limo/Plugins.svg?branch=master)](https://travis-ci.org/s-limo/Plugins) 
+
 AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/gyossbl0a6va5jcx?svg=true)](https://ci.appveyor.com/project/s-limo/plugins)
 
 # .NET Core plugins framework 
