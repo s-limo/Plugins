@@ -1,0 +1,20 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/s-limo/Plugins</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/s-limo/Plugins/master/icon.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/s-limo/Plugins</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>aspnetcore plugins extensions</PackageTags>
+    <Copyright>Sigitas Limontas</Copyright>
+    <Description>.NET Core plugins framework</Description>
+    <Company>Sigitas Limontas</Company>
+    <Authors>Sigitas Limontas</Authors>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0-beta</Version>
+  </PropertyGroup>
+</Project>
