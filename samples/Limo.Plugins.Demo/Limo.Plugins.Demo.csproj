@@ -12,10 +12,11 @@
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Limo.Plugins.Abstractions\Limo.Plugins.Abstractions.csproj" />
     <ProjectReference Include="..\..\src\Limo.Plugins\Limo.Plugins.csproj" />
   </ItemGroup>
   <Target Name="TestTarget" AfterTargets="Build">
-    <MSBuild Projects="..\Limo.Plugins.Demo.Plugin1\Limo.Plugins.Demo.Plugin1.csproj" Targets="Build" Properties="CustomFlag=true" ></MSBuild>
-    <MSBuild Projects="..\Limo.Plugins.Demo.Plugin2\Limo.Plugins.Demo.Plugin2.csproj" Targets="Build" Properties="CustomFlag=true" ></MSBuild>
+    <MSBuild Projects="..\Limo.Plugins.Demo.Plugin1\Limo.Plugins.Demo.Plugin1.csproj" Targets="Build" Properties="CustomFlag=true"></MSBuild>
+    <MSBuild Projects="..\Limo.Plugins.Demo.Plugin2\Limo.Plugins.Demo.Plugin2.csproj" Targets="Build" Properties="CustomFlag=true"></MSBuild>
   </Target>
 </Project>

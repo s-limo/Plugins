@@ -10,4 +10,8 @@
     <DocumentationFile>bin\Release\netcoreapp1.1\Limo.Plugins.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Limo.Plugins\Limo.Plugins.csproj" />
+  </ItemGroup>
+
 </Project>

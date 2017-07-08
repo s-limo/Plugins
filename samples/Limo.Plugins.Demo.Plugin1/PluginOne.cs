@@ -3,7 +3,8 @@ using System;
 
 namespace Limo.Plugins.Demo.Plugin1
 {
-  public class PluginOne : IPlugin
-  {
-  }
+    public class PluginOne : IPlugin
+    {
+        public int Priority => 2;
+    }
 }

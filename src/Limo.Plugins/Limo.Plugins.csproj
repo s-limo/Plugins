@@ -15,8 +15,4 @@
     <PackageReference Include="System.Runtime.Loader" Version="4.3.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Limo.Plugins.Abstractions\Limo.Plugins.Abstractions.csproj" />
-  </ItemGroup>
-
 </Project>
